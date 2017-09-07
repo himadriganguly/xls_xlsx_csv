@@ -8,10 +8,6 @@ def xlsToCsvConvertor (xls_filename):
     # Extract the filename along with path without extension.
     csv_filename = xls_filename.rsplit('/', 1)[-1].rsplit('.', 1)[0]
 
-    print(csv_filename)
-
-    print(xls_filename.rsplit('/', 1)[-1])
-
     try:
         # It will load the workbook.
         wb = xlrd.open_workbook(xls_filename)
@@ -54,10 +50,6 @@ def xlsToCsvConvertor (xls_filename):
 def xlsxToCsvHandler(xls_filename):
     # Extract the filename along with path without extension.
     csv_filename = xls_filename.rsplit('/', 1)[-1].rsplit('.', 1)[0]
-
-    print(csv_filename)
-
-    print(xls_filename.rsplit('/', 1)[-1])
 
     # It will open the workbook.
     try:
