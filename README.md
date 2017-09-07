@@ -8,6 +8,9 @@
 ## Usage
 
 ```bash
+pip3 install xlrd
+pip3 install openpyxl
+pip3 install unicodecsv
 $ python3 xls_xlsx_csv.py [PATH TO THE XLS/XLSX File]
 ```
 
